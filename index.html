@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="overflow-x-hidden w-screen">
+        <div class=" select-none bg-blue-600 flex justify-center pt-4 h-16 text-3xl text-white tracking-wide font-bold">
+            ATTENDANCE LOGIN
+        </div>
+        <div class="text-xl select-none flex justify-center pt-14 pl-2 pr-2 text-center text-gray-600">
+            Scan QR Code with your mobile device for your attendance.
+        </div>
+        <div id="qr-code-container" class="select-none border-8 border-blue-600 flex justify-center center w-72 h-72 mx-auto mt-28 bg-red-100 rounded-t-lg">
+            <img id="qr-code" class="flex justify-center" alt="QR Code will appear here">
+            
+        </div>
+        
+        <div class=" select-none mx-auto w-72 h-12 bg-blue-600 text-center text-white text-2xl font-bold rounded-b-lg -m-px">
+            SCAN ME
+        </div>
+        <p id="timer"><span id="countdown"></span></p>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
