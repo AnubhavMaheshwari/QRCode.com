@@ -4,7 +4,7 @@ const qrCodeContainer = document.getElementById('qr-code');
     const generateRandomData=()=>{
         // https://www.linkedin.com/in/anubhav-maheshwari-98b381271 for link of linked in 
 
-      return ` https://www.linkedin.com/in/anubhav-maheshwari-98b381271/?id=${Math.random().toString(36).substr(2, 8)}`;
+      return ` https://online.nitjsr.ac.in/endsem/?id=${Math.random().toString(36).substr(2, 8)}`;
     };
 
     const updateQRCode = () => {
